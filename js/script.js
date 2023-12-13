@@ -3,8 +3,6 @@
 
 const containerDiv = document.querySelector("#container");
 const countryForm = document.querySelector("form");
-let lang = "lang";
-let countryName = "name";
 
 ////////// ////////// Users choice ////////// //////////
 
@@ -12,12 +10,6 @@ countryForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const userSelect = document.querySelector("select").value;
   const userInput = document.querySelector("input").value;
-
-  if (userSelect == "name") {
-    countryName = userSelect;
-  } else if (userSelect == "lang") {
-    lang = userSelect;
-  }
 
   fetchcountryInfo(userSelect, userInput)
     .then(displayCountryInfo)
