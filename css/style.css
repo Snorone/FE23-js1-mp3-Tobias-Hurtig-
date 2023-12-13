@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border;
+}
+header {
+  padding: 0.4rem;
+  text-align: center;
+  /* background-color: rgb(38, 41, 41); */
+  color: rgb(200, 228, 228);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 66%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+h1 {
+  margin: 0 auto;
+  padding: 0.6rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0.4rem;
+}
+h3 {
+  margin: 0.4rem;
+  font-size: 1rem;
+}
+
+div {
+  /* border: solid 2px black;*/
+  margin: 1vh;
+  padding: 2vh;
+  background-color: rgb(135, 131, 17);
+}
+.divColor {
+  /* background-color: rgb(38, 41, 41); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 22%,
+    rgba(60, 63, 60, 1) 84%
+  );
+
+  color: rgb(200, 228, 228);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.divError {
+  text-align: center;
+  background-color: rgb(38, 41, 41);
+  color: rgb(200, 228, 228);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(200, 228, 228);
+}
+body {
+  background-color: rgb(200, 228, 228);
+}
